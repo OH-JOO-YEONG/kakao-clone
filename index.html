@@ -10,32 +10,32 @@
 </head>
 <body>
   <header class="top-header">
-    <div class="header_top">
-      <div class="header_column">
+    <div class="header__top">
+      <div class="header__column">
         <!-- plane icon-->
         <i class="fas fa-plane"></i>
         <!-- wifi icon-->
         <i class="fas fa-wifi"></i>
       </div>
-      <div class="header_column">
-        <span class="header_time">18:38</span>
+      <div class="header__column">
+        <span class="header__time">18:38</span>
       </div>
-      <div class="header_column">
+      <div class="header__column">
         <!-- moon icon-->
         <i class="fas fa-moon"></i>
         <!-- blue icon-->
         <i class="fab fa-bluetooth-b"></i>
-        <span class="header_battery">66%<!-- battery icon--><i class="fas fa-battery-three-quarters"></i></span>
+        <span class="header__battery">66%<!-- battery icon--><i class="fas fa-battery-three-quarters"></i></span>
       </div>
     </div>
-    <div class="header_bottom">
-      <div class="header_column">
-        <span class="header_text">Manage</span>
+    <div class="header__bottom">
+      <div class="header__column">
+        <span class="header__text">Manage</span>
       </div>
-      <div class="header_column">
-        <span class="header_text">Friends </span><span class="header_number">1</span>
+      <div class="header__column">
+        <span class="header__text">Friends </span><span class="header__number">1</span>
       </div>
-      <div class="header_column">
+      <div class="header__column">
         <i class="fas fa-cog fa-lg"></i>
       </div>
     </div>
@@ -45,34 +45,34 @@
       <i class="fa fa-search"></i>
       <input type="text" placeholder="Find friends, Chats, Plus Friends">
     </div>
-    <section class="friends_section">
-      <header class="friends_section-header">
-        <h6 class="friends_section-title">My Profile</h6>
+    <section class="friends__section">
+      <header class="friends__section-header">
+        <h6 class="friends__section-title">My Profile</h6>
       </header>
-      <div class="friends_section-rows">
-        <div class="friends_section-row">
-          <a href="profile.html">
+      <div class="friends__section-rows">
+          <a href="profile.html" class="friends__section-name">
+            <div class="friends__section-row">
             <img src="images/profile.jpg">
-            <span class="friends_section-name">오주영</span>
+              오주영
+            </div>
           </a>
-        </div>
-        <div class="friends_section-row">
+        <div class="friends__section-row">
           <img src="images/profile2.jpg">
-          <span class="friends_section-name">Frineds' Names Display</span>
+          <span class="friends__section-name">Frineds' Names Display</span>
         </div>
       </div>
     </section>
-    <section class="friends_section">
-      <header class="friends_section-header">
-        <h6 class="friends_section-title">Friends</h6>
+    <section class="friends__section">
+      <header class="friends__section-header">
+        <h6 class="friends__section-title">Friends</h6>
       </header>
-      <div class="friends_section-rows">
-        <div class="friends_section-row">
-          <div class="friends_section-column">
+      <div class="friends__section-rows">
+        <div class="friends__section-row with-tagline">
+          <div class="friends__section-column">
             <img src="images/profile2.jpg">
-            <span class="friends_section-name">오수영</span>
+            <span class="friends__section-name">오수영</span>
           </div>
-          <span class="frineds_section-tagline">
+          <span class="frineds__section-tagline">
             이게 인생인가?
           </span>
         </div>
@@ -80,21 +80,21 @@
     </section>
   </main>
   <nav class="tab-bar">
-    <a href="index.html" class="tab-bar__tab tab-bar_tab-selected">
+    <a href="index.html" class="tab-bar__tab tab-bar__tab-selected">
       <i class="fas fa-user"></i>
-      <span class="tab-bar_title">Friends</span>
+      <span class="tab-bar__title">Friends</span>
     </a>
     <a href="chats.html" class="tab-bar__tab">
       <i class="fas fa-comment"></i>
-      <span class="tab-bar_title">Chats</span>
+      <span class="tab-bar__title">Chats</span>
     </a>
     <a href="find.html" class="tab-bar__tab">
       <i class="fas fa-search"></i>
-      <span class="tab-bar_title">Finds</span>
+      <span class="tab-bar__title">Finds</span>
     </a>
     <a href="more.html" class="tab-bar__tab">
       <i class="fas fa-ellipsis-h"></i>
-      <span class="tab-bar_title">More</span>
+      <span class="tab-bar__title">More</span>
     </a>
   </nav>
 </body>

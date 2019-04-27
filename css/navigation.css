@@ -24,10 +24,10 @@
   font-size: 24px;
 }
 
-.tab-bar .tab-bar_title{
+.tab-bar .tab-bar__title{
   font-size: 10px;
 }
 
-.tab-bar .tab-bar_tab-selected{
+.tab-bar .tab-bar__tab-selected{
   color: #523737;
 }
