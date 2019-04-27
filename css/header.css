@@ -1,0 +1,40 @@
+.top-header{
+  background-color: #523737;
+  color:white;
+  padding:5px 10px 15px 10px;
+}
+
+.top-header .header_top,
+.top-header .header_bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header .header_top{
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.top-header .header_bottom{
+  margin: 0 10px;
+}
+
+.top-header .header_column{
+  width: 33%;
+}
+/*
+last child는 top-header에서 모든 칼럼들 중에 마지막 칼럼을 의미한다. 즉 배터리칼럼과 나사칼럼.
+*/
+.top-header .header_column:last-child{
+  text-align: right;
+}
+/*
+nth-child(2)는 header-column의 두번째순서를 말하는거 즉 시간과 Friends1을 말하는것
+*/
+.top-header .header_column:nth-child(2){
+  text-align: center;
+}
+
+.top-header .header_number{
+  color: yellow;
+}
